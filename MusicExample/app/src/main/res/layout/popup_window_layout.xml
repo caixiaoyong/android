@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#444445">
+    <Button
+        android:id="@+id/loop_play_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:background="#00000000"
+        android:text="循 环 播 放"
+        android:onClick="loop_play_mode_listener"/>
+
+    <Button
+        android:id="@+id/random_play_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:background="#00000000"
+        android:text="随 机 播 放"
+        android:onClick="random_play_mode_listener"/>
+
+</LinearLayout>

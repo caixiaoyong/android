@@ -1,0 +1,56 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/music_list_layout"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bg_photo_01">
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:background="#00000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/favorite_fragment_to_main_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_actionitem_back1"/>
+        <!--  从我的最爱fragment回退到mainFragment的按钮,也就是那个箭头-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15pt"
+            android:textColor="@color/tomato"
+            android:text="我 的 最 爱"
+            android:completionThreshold="1"
+            android:layout_toRightOf="@id/favorite_fragment_to_main_fragment"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout">
+
+        <ListView
+            android:id="@+id/favorite_music_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#ffff99c9"
+            android:dividerHeight="2dp"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@color/cornsilk"><!-- 用来显示歌曲列表的litView-->
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

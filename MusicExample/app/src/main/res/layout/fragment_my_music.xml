@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/music_list_layout"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+   >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:background="#00000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/top_layout_right_ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_actionitem_back1"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="7pt"
+            android:textColor="@color/tomato"
+            android:hint="请输入歌曲名"
+            android:completionThreshold="1"
+            android:layout_toRightOf="@id/top_layout_right_ImageView"
+            android:layout_toEndOf="@id/top_layout_right_ImageView"
+            android:layout_toLeftOf="@+id/find_music_button"
+            android:layout_toStartOf="@+id/find_music_button"
+            android:layout_alignBottom="@+id/find_music_button" />
+
+        <ImageButton
+            android:id="@+id/find_music_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_search"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout">
+
+        <ListView
+            android:id="@+id/music_list"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#ffff99c9"
+            android:dividerHeight="2dp"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@color/cornsilk">
+        </ListView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/leng"
+    >
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+       <!-- <TextView
+            android:id="@+id/randomMusic"
+            android:background="#20000000"
+            android:padding="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:textColor="#FFADABFF"
+            android:drawableEnd="@drawable/random_music"
+            android:drawableRight="@drawable/random_music"
+            android:gravity="center"
+            android:text="随 便 来 一 首"
+            android:layout_above="@+id/myMusicButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="49dp" />
+-->
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/summay"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/myMusicButton"
+            android:background="#20000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2pt"
+            android:textSize="10pt"
+            android:textColor="#FFADABFF"
+            android:text="我 的 音 乐"
+            android:drawableEnd="@drawable/my_music"
+            android:drawableRight="@drawable/my_music"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="350dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:id="@+id/myFavoriteButton"
+            android:background="#20000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2pt"
+            android:textSize="10pt"
+            android:textColor="#FFADABFF"
+            android:text="我 的 最 爱"
+            android:drawableEnd="@drawable/my_favorite_music"
+            android:drawableRight="@drawable/my_favorite_music"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+       <!-- <Button
+            android:id="@+id/latestPlayListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2pt"
+            android:background="#20000000"
+            android:textSize="10pt"
+            android:textColor="#FFADABFF"
+            android:text="最 近 播 放"
+            android:drawableEnd="@drawable/latest_play_list"
+            android:drawableRight="@drawable/latest_play_list"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@+id/myOwnMusicListButton"
+            android:layout_alignRight="@+id/myFavoriteButton"
+            android:layout_alignEnd="@+id/myFavoriteButton" />
+
+        <Button
+            android:id="@+id/myOwnMusicListButton"
+            android:background="#20000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2pt"
+            android:textSize="10pt"
+            android:textColor="#FFADABFF"
+            android:drawableEnd="@drawable/my_music_list"
+            android:drawableRight="@drawable/my_music_list"
+            android:text="我 的 歌 单"
+            android:layout_below="@+id/myMusicButton"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="83dp" />
+-->
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
