@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btt_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP设置" />
+    <Button
+        android:id="@+id/btt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统语言选择" />
+    <Button
+        android:id="@+id/btt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内部存储" />
+    <Button
+        android:id="@+id/btt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开发者选项" />
+    <Button
+        android:id="@+id/btt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APN设置" />
+</LinearLayout>

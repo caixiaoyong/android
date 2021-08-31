@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorgray"
+    >
+<RelativeLayout
+    android:id="@+id/ly_top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    >
+    <TextView
+        android:id="@+id/txt_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="信息"
+        android:textColor="#00FF33"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"/>
+
+</RelativeLayout>
+    <RadioGroup
+        android:id="@+id/rg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <RadioButton
+            android:id="@+id/rb_channel"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_channel"
+            android:text="添加" />
+
+        <RadioButton
+            android:id="@+id/rb_message"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_message"
+            android:text="查找" />
+
+        <RadioButton
+            android:id="@+id/rb_better"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_better"
+            android:text="前进" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_setting"
+            android:text="交换"/>
+
+    </RadioGroup>
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_above="@id/rg_tab_bar"
+        android:background="#ffffff"/>
+
+    <FrameLayout
+        android:id="@+id/fl_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_top_bar"
+        android:layout_above="@id/div_tab_bar"></FrameLayout>
+
+
+</RelativeLayout>

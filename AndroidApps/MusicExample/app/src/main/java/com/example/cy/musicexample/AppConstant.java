@@ -1,0 +1,28 @@
+package com.example.cy.musicexample;
+
+/**
+ * Created by cy on 21-1-27.
+ */
+
+public interface AppConstant {
+    public class PlayerMsg{
+        public static final int PLAY_MSG = 1;                      //开始播放
+        public static final int PAUSE = 2;                         //暂停播放
+        public static final int PREVIOUS_MUSIC = 3;                //上一首
+        public static final int NEXT_MUSIC = 4;                    //下一首
+        public static final int LOOP_MODE = 5;                     //循环播放
+        public static final int RANDOM_MODE = 6;                   //随机播放
+        public static final int CHANGE_TO_MY_MUSIC_FRAGMENT=7;     //更换fragment消息
+        public static final int LIST_CLICK = 8;                    //列表点击
+        public static final int BACK_TO_MAIN_FRAGMENT=9;           //回退到主fragment
+
+    }
+
+  /*  public class NotificationMsg{
+        public static final String NOTIFICATION_PREVIOUS_MUSIC = "PREVIOUS";
+        public static final String NOTIFICATION_NEXT_MUSIC = "NEXT";
+        public static final String NOTIFICATION_PAUSE_MUSIC = "PLAY";
+        public static final String NOTIFICATION_EXIT = "EXIT";
+    }*/
+
+}

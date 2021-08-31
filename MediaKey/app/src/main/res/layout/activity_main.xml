@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/global_actions_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:orientation="horizontal">
+
+        <!--   <LinearLayout
+              android:id="@android:id/list"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="@dimen/global_actions_grid_vertical_padding"
+              android:paddingBottom="@dimen/global_actions_grid_vertical_padding"
+              android:orientation="horizontal"
+              android:gravity="left | center_vertical"
+              android:translationZ="@dimen/global_actions_translate"
+          > -->
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/data/Calculator/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/data/Calculator/res/values-sw600dp-land/styles.xml",
+                    "from": {
+                        "startLines": "20,28,36,43,48,52,57,62,73,82",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "786,1115,1443,1777,1938,2053,2215,2380,2859,3240",
+                        "endLines": "26,34,41,46,50,55,60,71,80,89",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1109,1437,1771,1932,2047,2209,2374,2853,3234,3616"
+                    },
+                    "to": {
+                        "startLines": "2,9,16,22,26,29,33,37,47,55",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,383,710,1043,1203,1317,1478,1642,2120,2500",
+                        "endLines": "8,15,21,25,28,32,36,46,54,62",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "378,705,1038,1198,1312,1473,1637,2115,2495,2876"
+                    }
+                }
+            ]
+        }
+    ]
+}

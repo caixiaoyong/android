@@ -1,0 +1,4 @@
+---- Systemproperties Matches (3 in 1 files) ----
+Calculator.java (src\com\android\hjc):import android.os.SystemProperties;//BIRD add by zhanglixian 20161215
+Calculator.java (src\com\android\hjc):                Log.d(NAME,String.valueOf(SystemProperties.getBoolean("ro.bdfun.add_zero",false)));
+Calculator.java (src\com\android\hjc):                if(SystemProperties.getBoolean("ro.bdfun.add_zero",false)){

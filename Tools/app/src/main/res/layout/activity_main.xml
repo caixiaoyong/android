@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/safe"
+            android:text="安全" />
+
+        <Button
+            android:id="@+id/bt_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/user"
+            android:text="添加账户" />
+
+        <Button
+            android:id="@+id/bt_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/wifi"
+            android:text="WLAN" />
+
+
+        <Button
+            android:id="@+id/bt_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/blue"
+            android:text="蓝牙管理" />
+
+        <Button
+            android:id="@+id/bt_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/mobilenet"
+            android:text="移动网络" />
+
+        <Button
+            android:id="@+id/bt_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/moreconnection"
+            android:text="更多连接" />
+
+        <Button
+            android:id="@+id/bt_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sun"
+            android:text="显示和亮度" />
+
+        <Button
+            android:id="@+id/bt_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/phone1"
+            android:text="关于手机" />
+    </LinearLayout>
+
+</ScrollView>

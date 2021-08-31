@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/data/Calculator/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/data/Calculator/res/values-land/layout.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "661",
+                        "endColumns": "90",
+                        "endOffsets": "747"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "90",
+                        "endOffsets": "141"
+                    }
+                },
+                {
+                    "source": "/data/Calculator/res/values-land/styles.xml",
+                    "from": {
+                        "startLines": "20,28,36,46,51,55,63,68,79,88",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "775,1103,1430,1946,2107,2222,2566,2731,3206,3583",
+                        "endLines": "26,34,44,49,53,61,66,77,86,95",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1097,1424,1940,2101,2216,2560,2725,3200,3577,3957"
+                    },
+                    "to": {
+                        "startLines": "3,10,17,26,30,33,40,44,54,62",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "146,473,799,1314,1474,1588,1931,2095,2569,2945",
+                        "endLines": "9,16,25,29,32,39,43,53,61,69",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "468,794,1309,1469,1583,1926,2090,2564,2940,3319"
+                    }
+                }
+            ]
+        }
+    ]
+}

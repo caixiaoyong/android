@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/box"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E6FFFFFF"
+            android:text="1111"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22222"/>
+
+    </LinearLayout>
+<Button
+    android:id="@+id/bt1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="点击"
+    android:background="#ffff00"/>
+<!--
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Control.MenuItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:textDirection="locale"/>-->
+</LinearLayout>

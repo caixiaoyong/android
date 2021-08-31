@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:background="#1AE6E6"
+        android:src="@drawable/wechat"
+        android:scaleType="fitXY"
+        /><!--使得该图片完全适应ImageView,但是图片的横纵比可能会发生改变-->
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/iv_1"
+        android:background="#6FD52B"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/wechat"
+        android:scaleType="fitCenter"/>
+    <!--保持纵横比缩放图片,缩放后放于中间-->
+    <ImageView
+        android:id="@+id/iv_3"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:background="#916F8A"
+        android:layout_below="@id/iv_2"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/wechat"
+        android:scaleType="centerCrop"/>
+    <!--:保持横纵比缩放图片,完全覆盖ImageView,可能会出现图片的显示不完全-->
+   <!-- <ImageView
+        android:id="@+id/iv_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/global_actions_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:layout_gravity="top|right"
+    android:background="#8080"
+    android:layout_marginTop="15dp"
+    >
+    <com.android.systemui.globalactions.GlobalActionsFlatLayout
+        android:id="@id/global_actions_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:theme="@style/qs_theme"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_marginStart="10dp"
+
+        android:gravity="top|left"
+        >
+       <!-- <LinearLayout
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:orientation="horizontal"
+            android:gravity="left | center_vertical"
+            android:translationZ="9dp"
+            >-->
+        <RelativeLayout
+            android:id="@android:id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="top|left"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:translationZ="9dp" >
+            <RelativeLayout
+                android:id="@+id/global_actions_overflow_button"
+                android:contentDescription="menu"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                >
+                <ImageView
+                    android:src="@drawable/ic_more_vert"
+                    android:layout_centerInParent="true"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:tint="@color/control_more_vert"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.android.systemui.globalactions.GlobalActionsFlatLayout>
+
+</LinearLayout>

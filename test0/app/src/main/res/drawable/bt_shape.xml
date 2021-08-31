@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/background">
+        <shape>
+            <solid android:color="#000000" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+    <item
+        android:id="@+id/clip_layer">
+        <clip
+            android:clipOrientation="vertical"
+            android:drawable="@drawable/control_layer" />
+    </item>
+</layer-list>

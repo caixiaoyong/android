@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/layout_activity_calculator_tablet_port.xml.flat",
+        "source": "/data/Calculator/res/layout/activity_calculator_tablet_port.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/layout_pad_advanced.xml.flat",
+        "source": "/data/Calculator/res/layout/pad_advanced.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/layout_activity_calculator_land.xml.flat",
+        "source": "/data/Calculator/res/layout/activity_calculator_land.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/layout_pad_operator_two_col.xml.flat",
+        "source": "/data/Calculator/res/layout/pad_operator_two_col.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/layout_pad_numeric.xml.flat",
+        "source": "/data/Calculator/res/layout/pad_numeric.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_calculator.png.flat",
+        "source": "/data/Calculator/res/mipmap-xhdpi/ic_launcher_calculator.png"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_calculator.png.flat",
+        "source": "/data/Calculator/res/mipmap-xxhdpi/ic_launcher_calculator.png"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/layout_activity_calculator_port.xml.flat",
+        "source": "/data/Calculator/res/layout/activity_calculator_port.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_calculator.png.flat",
+        "source": "/data/Calculator/res/mipmap-xxxhdpi/ic_launcher_calculator.png"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_calculator.png.flat",
+        "source": "/data/Calculator/res/mipmap-mdpi/ic_launcher_calculator.png"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/drawable_pad_button_advanced_background.xml.flat",
+        "source": "/data/Calculator/res/drawable/pad_button_advanced_background.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/layout_pad_operator_one_col.xml.flat",
+        "source": "/data/Calculator/res/layout/pad_operator_one_col.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_calculator.png.flat",
+        "source": "/data/Calculator/res/mipmap-hdpi/ic_launcher_calculator.png"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/drawable_pad_button_background.xml.flat",
+        "source": "/data/Calculator/res/drawable/pad_button_background.xml"
+    },
+    {
+        "merged": "/data/Calculator/build/intermediates/res/merged/debug/layout_display.xml.flat",
+        "source": "/data/Calculator/res/layout/display.xml"
+    }
+]

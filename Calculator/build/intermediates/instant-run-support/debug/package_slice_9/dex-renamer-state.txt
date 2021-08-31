@@ -1,0 +1,4 @@
+#Tue Jul 03 15:56:30 CST 2018
+base.0=/data/Calculator/build/intermediates/transforms/dexMerger/debug/9
+renamed.0=classes.dex
+file.0=/data/Calculator/build/intermediates/transforms/dexMerger/debug/9/classes.dex

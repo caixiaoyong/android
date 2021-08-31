@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/data/Calculator/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-port-v13/values-sw600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/data/Calculator/res/values-sw600dp-port/layout.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "661",
+                        "endColumns": "97",
+                        "endOffsets": "754"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "97",
+                        "endOffsets": "148"
+                    }
+                },
+                {
+                    "source": "/data/Calculator/res/values-sw600dp-port/styles.xml",
+                    "from": {
+                        "startLines": "21,31,39,49,54,58,66,71,82,91,100",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "786,1200,1528,2046,2207,2322,2668,2833,3311,3690,4068",
+                        "endLines": "29,37,47,52,56,64,69,80,89,98,104",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1194,1522,2040,2201,2316,2662,2827,3305,3684,4062,4287"
+                    },
+                    "to": {
+                        "startLines": "3,12,19,28,32,35,42,46,56,64,72",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "153,566,893,1410,1570,1684,2029,2193,2670,3048,3425",
+                        "endLines": "11,18,27,31,34,41,45,55,63,71,76",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "561,888,1405,1565,1679,2024,2188,2665,3043,3420,3644"
+                    }
+                }
+            ]
+        }
+    ]
+}

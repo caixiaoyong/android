@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">设置</string>
+    <string name="app_1">移动网络</string>
+    <string name="app_2">更多连接</string>
+    <string name="app_3">关于手机</string>
+
+</resources>

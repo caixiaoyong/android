@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/transforms/desugar/debug/4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/transforms/desugar/debug/3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/transforms/desugar/debug/8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/transforms/desugar/debug/7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/transforms/desugar/debug/5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/transforms/desugar/debug/6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/transforms/desugar/debug/1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/transforms/desugar/debug/2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
